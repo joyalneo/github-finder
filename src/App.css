@@ -226,6 +226,29 @@ img {
   opacity: 1;
 }
 
+#searchButton {
+  background-color: rgb(247, 233, 233);
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+}
+
+#searchButton:hover {
+  background-color: var(--primary-color);
+  opacity: 1;
+  color: white;
+}
+
+#clearButton {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#clearButton:hover {
+  background-color: rgb(0, 0, 0);
+  opacity: 1;
+  color: white;
+}
+
 .btn-link {
   background: none;
   padding: 0;
@@ -329,6 +352,10 @@ input {
   margin: 1.2rem 0;
 }
 
+input:focus {
+  outline: none;
+}
+
 .form-text {
   display: block;
   margin-top: 0.3rem;
@@ -429,3 +456,4 @@ table th {
     justify-content: center;
   }
 }
+
